@@ -1,0 +1,54 @@
+BERRIES INN — WEBSITE
+======================
+
+INHALT DIESES ORDNERS
+----------------------
+index.html         → Startseite
+speisekarte.html    → Speisekarte
+cocktails.html      → Cocktailkarte
+kontakt.html        → Kontakt & Reservierung
+assets/style.css    → Design/Layout (eine Datei für alle Seiten)
+assets/script.js    → Menü-Funktion (mobiles Hamburger-Menü etc.)
+assets/img/         → Logo und alle Fotos
+
+
+HOCHLADEN AUF www.berries-inn.de
+----------------------------------
+1. Bei eurem Hosting-Anbieter einloggen (z. B. via FTP-Programm wie
+   FileZilla, oder dem Datei-Manager im Hosting-Kundenkonto).
+2. In das öffentliche Wurzelverzeichnis der Domain wechseln
+   (heißt meist "public_html", "htdocs" oder "www").
+3. Den GESAMTEN Inhalt dieses Ordners dort hochladen — wichtig:
+   die Ordnerstruktur (assets/, assets/img/) muss erhalten bleiben,
+   und index.html muss direkt im Wurzelverzeichnis liegen.
+4. Fertig! Die Seite ist dann unter www.berries-inn.de erreichbar.
+
+Falls ihr unsicher seid, wie ihr an den Datei-Manager oder FTP-Zugang
+eures Hosters kommt: Das steht in der Willkommens-E-Mail eures
+Hosting-Anbieters, oder der Support des Anbieters hilft gern weiter.
+
+
+DER "TISCH RESERVIEREN"-BUTTON
+--------------------------------
+Öffnet automatisch das E-Mail-Programm des Besuchers mit
+info@berries-inn.de als Empfänger und einem vorausgefüllten Betreff/
+Text. Es ist keine weitere technische Einrichtung nötig.
+
+Falls ihr die Zieladresse einmal ändern wollt: In jeder .html-Datei
+nach "mailto:info@berries-inn.de" suchen und ersetzen (kommt mehrfach
+vor — überall gleich ersetzen).
+
+
+SPÄTERE ERWEITERUNG UMS HOTEL
+--------------------------------
+Wie besprochen ist das Hotel (21 Zimmer) noch nicht auf der Seite.
+Sobald ihr Texte/Fotos/Buchungsinfos dafür habt, ergänzen wir einfach
+eine neue Seite (z. B. "zimmer.html") und einen Navigationspunkt —
+das Grundgerüst der Seite ist dafür bereits vorbereitet.
+
+
+ÄNDERUNGEN AN TEXTEN/PREISEN
+-------------------------------
+Ruft mich (Claude) einfach wieder auf und sagt mir, was sich ändern
+soll — z. B. neue Preise, neue Gerichte, andere Öffnungszeiten. Ich
+passe die Dateien dann direkt an.
